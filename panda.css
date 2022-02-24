@@ -1,0 +1,77 @@
+body {
+    background-image: url(https://abc-decor.com/img/gallery/73/thumbs/thumb_l_psh_00005572.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    padding: 1%;
+    border-radius: 10px;
+}
+button {
+    background-color: rgb(157, 192, 147);
+}
+
+input {
+    background-color: rgb(196, 216, 190);
+}
+
+table {
+    float: right;
+    background-color: rgb(223, 198, 168);
+}
+
+#topic {
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    padding: 0 2%;
+}
+
+h1 {
+    background-color: palegreen;
+    padding: 0 1%;
+    border-radius: 10px;
+
+}
+
+h2 {
+    padding: 0 1%;
+}
+#wiki{
+    padding: 0 1% 0.4% 1%;
+}
+
+#panda {
+
+    margin: 1%;
+    border-radius: 5px;
+}
+
+p {
+    background-color: rgb(169, 221, 162);
+    padding: 1% 2%;
+}
+
+main {
+    background-color: bisque;
+    border-radius: 10px;
+    margin: 10px 0;
+    
+
+}
+
+.article {
+    padding: 10px 0px;
+}
+
+
+ footer {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 1%;
+
+}

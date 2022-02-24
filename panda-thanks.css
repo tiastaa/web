@@ -1,0 +1,44 @@
+body {
+    background-image: url(https://abc-decor.com/img/gallery/73/thumbs/thumb_l_psh_00005572.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: gainsboro;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+main {
+    background-color: bisque;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 0.3%;
+}
+
+h1 {
+    color: rgb(35, 70, 58);
+    padding: 0 1%;
+    border-radius: 10px;
+
+}
+
+
+
+button {
+    background-color: rgb(157, 192, 147);
+}
+
+input {
+    background-color: rgb(196, 216, 190);
+}
+
+
+
+footer {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 1%;
+
+}
