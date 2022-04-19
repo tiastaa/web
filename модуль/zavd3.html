@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="zavd3.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2> Завдання 3. Доставка товару</h2>
+    <form method="post" action="#">
+        <label for="numberofbox">Кількість коробок</label>
+        <input type="number" id="numberofbox" step="1" name="numberofbox" value="0" min="1">
+        <fieldset>
+            <legend>Розмір коробки</legend>
+            <br>
+            <label for="small-box">140x100x40</label>
+            <input type="radio" name="size" id="small-box" value="sbox">
+            <br>
+            <label for="big-box">180x150x40</label>
+            <input type="radio" name="size" id="big-box" value="bbox">
+            <br>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Тарифна зона</legend>
+            <br>
+            <label for="ua-zone">1</label>
+            <input type="radio" name="zone" id="zone-1" value="1">
+            <br>
+            <label for="ua-zone">2</label>
+            <input type="radio" name="zone" id="zone-2" value="2">
+            <br>
+            <label for="ua-zone">3</label>
+            <input type="radio" name="zone" id="zone-3" value="3">
+            <br>
+            <label for="ua-zone">4</label>
+            <input type="radio" name="zone" id="zone-4" value="4">
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Тип населеного пункта</legend>
+            <br>
+            <label for="ua-settlement">Місто</label>
+            <input type="radio" name="settlement" id="city" value="city">
+            <br>
+            <label for="ua-settlement">СМТ чи село</label>
+            <input type="radio" name="settlement" id="village" value="village">
+            <br>
+            
+            
+        </fieldset>
+        <button type="button" id="calc-total"> Визначити загальну вартість </button>
+        <br>
+        <label for="total">Загальна вартість</label>
+        <input type="text" id="total">
+    </form>
+</body>
+
+</html>
