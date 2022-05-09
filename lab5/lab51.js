@@ -78,12 +78,15 @@ class Competition {
 
     }
     zavd4(age, country){
+        let myzavd=[];
         for(let i=0; i<this.items.length;i++){
             if( this.items[i].country==country && this.items[i].age>=age){
-                return this.items[i];
+                myzavd.push(this.items[i]);
             }
                 
         }
+        return [...myzavd];
+
     }
 
     delete(id){
@@ -130,7 +133,7 @@ competition.update(1, {
 });
 
 // competition.delete(0);
-console.log(competition.zavd4(18 ,'ua'));
+
 competition.addcolections([
     new PlayerWithId(
         "394",
@@ -153,10 +156,11 @@ competition.addcolections([
         "402",
         "yura",
         "male",
-        "13",
-        "uk",
+        "89",
+        "ua",
         "[1,7,4]"
     )
 
 
     ]);
+    console.log(competition.zavd4(18 ,'ua'));
