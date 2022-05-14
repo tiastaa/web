@@ -1,0 +1,64 @@
+.window{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 0.5px solid rgb(133, 133, 133);
+    border-radius: 3px;
+    width: 400px;
+    height: 110px;
+    background-color: white;
+    padding: 20px;
+}
+body{
+    background-color: rgb(73, 97, 193);
+}
+.contentbutton{
+    border: none;
+    color:rgb(133, 133, 133) ;
+    height: 25px;
+    background-color: white;
+    margin:  20px 2px  10px 0 ;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0px;
+
+}
+.contentbutton:hover{
+    color: #000000;
+}
+
+/* .contentbutton:focus{
+    color: black;
+} */
+.changetab{
+    float: right;
+    display: absolute;
+    width: 25%;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+#numberboxid{
+    border: none;
+    background-color: white;
+    width: 72%;
+    height: 30px;
+    outline: none;
+    border-bottom: 2px solid rgb(133, 133, 133) ;
+    border-radius: 2px;
+
+}
+#numberboxid:focus{
+    border-bottom: 2px solid rgb(0, 0, 0) ;
+
+}
+#contentout{
+    margin: 0 0 20px 0 ;
+
+}
+p{
+    font-weight: bold;  
+}

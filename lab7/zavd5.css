@@ -1,0 +1,91 @@
+.window{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 0.5px solid rgb(133, 133, 133);
+    border-radius: 6px;
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+
+
+}
+body{
+    background-color: rgb(47, 65, 137);
+    
+
+
+}
+.contentbutton{
+    border: none;
+    color:rgb(0, 0, 0) ;
+    height: 24px;
+    background-color: rgb(225, 225, 225);
+    display: block;
+    margin-bottom: auto;
+    margin-top: auto;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+    border-radius: 3px;
+    
+}
+.contentbutton:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+#mowwindow{
+
+    visibility: hidden;
+    width: 300px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 5;
+    
+    
+
+}
+
+#blackbox{
+    visibility: hidden;
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.384);
+    position: absolute;
+
+    
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+}
+#windowbutton{
+    visibility: hidden;
+    border: none;
+    color:rgb(0, 0, 0) ;
+    height: 24px;
+    background-color: rgb(225, 225, 225);
+    display: block;
+    margin-bottom: auto;
+    margin-top: auto;
+    cursor: pointer;
+    padding: 5px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 3px;
+}
+h2{
+    padding-top:200px;
+    text-align: center;
+
+}
+
